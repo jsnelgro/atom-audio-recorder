@@ -1,9 +1,16 @@
 {
   "name": "audio-recorder",
   "main": "./lib/audio-recorder",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "record audio straight from atom using your computer's microphone!",
-  "keywords": ["audio", "recording", "songwriting", "writing", "voice memo", "memo"],
+  "keywords": [
+    "audio",
+    "recording",
+    "songwriting",
+    "writing",
+    "voice memo",
+    "memo"
+  ],
   "activationCommands": {
     "atom-workspace": "audio-recorder:toggle"
   },
