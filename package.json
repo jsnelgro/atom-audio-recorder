@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "audio-recorder:toggle"
   },
-  "repository": "https://github.com/atom/audio-recorder",
+  "repository": "https://github.com/jsnelgro/atom-audio-recorder",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
