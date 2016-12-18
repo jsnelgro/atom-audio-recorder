@@ -1,0 +1,36 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.audio-recorder {
+
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .recording-light {
+    color: red;
+    transition: all 0.5s;
+    animation: neon 1.5s ease-in-out infinite alternate;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .rectime {
+    display: inline-block;
+  }
+
+  @-webkit-keyframes neon {
+    from {
+      text-shadow: 0 0 5px rgba(255, 0, 0, 0), 0 0 10px rgba(255, 0, 0, 0), 0 0 15px rgba(255, 0, 0, 0), 0 0 20px #ff2222, 0 0 35px #ff2222, 0 0 40px #ff2222, 0 0 50px #ff2222, 0 0 75px #ff2222;
+    }
+    to {
+      text-shadow: 0 0 0 rgba(255, 0, 0, 0), 0 0 5px rgba(255, 0, 0, 0), 0 0 10px rgba(255, 0, 0, 0), 0 0 15px #ff2222, 0 0 20px #ff2222, 0 0 25px #ff2222, 0 0 30px #ff2222, 0 0 35px #ff2222;
+    }
+  }
+}

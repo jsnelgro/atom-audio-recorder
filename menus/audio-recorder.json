@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle audio-recorder",
+        "command": "audio-recorder:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "audio-recorder",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "audio-recorder:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
