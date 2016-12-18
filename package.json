@@ -1,7 +1,7 @@
 {
   "name": "audio-recorder",
   "main": "./lib/audio-recorder",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "record audio straight from atom using your computer's microphone!",
   "keywords": [
     "audio",
